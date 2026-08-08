@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daniel_t_mendes.EDU_FIESC\\Documents\\GitHub\\FuteMol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|C:\\Users\\daniel_t_mendes.EDU_FIESC\\Documents\\GitHub\\FuteMol\\assets\\scripts\\challenge\\challengedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\challengedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChallengeData.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes.EDU_FIESC\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes.EDU_FIESC\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T23:29:54.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
