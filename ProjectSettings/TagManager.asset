@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - ChargeParticle
+  - Ball
   layers:
   - Default
   - TransparentFX

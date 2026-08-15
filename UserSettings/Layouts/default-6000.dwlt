@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 290
     height: 337
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1366
     height: 36
   m_SerializedDataModeController:
@@ -669,8 +669,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 290
-    y: 416
+    x: 1
+    y: 361
     width: 736
     height: 258
   m_SerializedDataModeController:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 289
     height: 311
   m_SerializedDataModeController:
@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 416
+    y: 361
     width: 289
     height: 258
   m_SerializedDataModeController:
@@ -842,9 +842,8 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 35}
-      m_SelectedIDs:
-      - m_Data: 40148
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -900,8 +899,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 290
-    y: 79
+    x: 1
+    y: 24
     width: 736
     height: 311
   m_SerializedDataModeController:
@@ -1680,8 +1679,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1028
-    y: 79
+    x: 1
+    y: 24
     width: 337
     height: 388
   m_SerializedDataModeController:
@@ -1732,15 +1731,7 @@ MonoBehaviour:
       m_Data: 77286
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 66062
-    - m_Data: 66150
-    - m_Data: 68334
-    - m_Data: 70390
-    - m_Data: 70936
-    - m_Data: 72678
-    - m_Data: 73002
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 48974
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1771,7 +1762,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 48974
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1857,8 +1850,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1028
-    y: 493
+    x: 1
+    y: 438
     width: 337
     height: 181
   m_SerializedDataModeController:
