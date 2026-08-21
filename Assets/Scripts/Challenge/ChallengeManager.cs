@@ -2,53 +2,61 @@ using UnityEngine;
 
 public class ChallengeManager : MonoBehaviour
 {
+    public static ChallengeManager Instance;
+
     public enum ChallengeStates
     {
-        Iniciando,
         Formulando,
         Simulando,
         Derrota,
         Vitoria
     }
-    public ChallengeStates currentChallenge;
 
-    [Header("Referências")]
-    public GoalManager goal;
-    public ResultsManager resultsManager;
+    public ChallengeStates CurrentChallenge;
+
+    [Header("ReferÃªncias")]
+    [SerializeField] private GoalManager goal;
+    [SerializeField] private ResultsManager resultsManager;
 
 
-    public void Update()
+    private void Awake()
     {
-        StatesChanger();
-
-        if(goal.goalConceded == true)
+        if (Instance == null)
         {
-            currentChallenge = ChallengeStates.Vitoria;
+            Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        CurrentChallenge = ChallengeStates.Formulando;
     }
 
-    public void StatesChanger()
+    public void Simular()
     {
-        switch (currentChallenge) {
-            case ChallengeStates.Iniciando:
+        if (CurrentChallenge != ChallengeStates.Formulando)
+            return;
 
-                break;
+        CurrentChallenge = ChallengeStates.Simulando;
+    }
 
-            case ChallengeStates.Formulando:
+    public void Victory()
+    {
+        if (CurrentChallenge != ChallengeStates.Simulando)
+            return;
 
-                break;
+        CurrentChallenge = ChallengeStates.Vitoria;
+        resultsManager.Victory();
+    }
 
-            case ChallengeStates.Simulando:
+    public void Defeat()
+    {
+        if (CurrentChallenge != ChallengeStates.Simulando)
+            return;
 
-                break;
-
-            case ChallengeStates.Derrota:
-                resultsManager.Defeat();
-                break;
-
-            case ChallengeStates.Vitoria:
-                resultsManager.Victory();
-                break;
-        }
+        CurrentChallenge = ChallengeStates.Derrota;
+        resultsManager.Defeat();
     }
 }

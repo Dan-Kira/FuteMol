@@ -1,40 +1,48 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class ChargedObject : MonoBehaviour
 {
-    [Header("Propriedades do objeto")]
-    public float charge = 1.0f;
-    public float mass = 1.0f;
-    public Vector3 velocity;
-    
-    [Header("Configurações do sistema")]
-    public float k = 50.0f;
-    public float minDistance = 0.5f;
+    [Header("Properties")]
+    [SerializeField] private float charge = 1f;
 
-    public void Update(){
-        GameObject[] particles = GameObject.FindGameObjectsWithTag("ChargeParticle");
-        Vector3 totalForce = Vector3.zero;
+    [Header("Electric Field")]
+    [SerializeField] private float k = 50f;
+    [SerializeField] private float minDistance = 0.5f;
 
-        foreach (GameObject particleObj in particles)
+    private Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void FixedUpdate()
+    {
+        if (ChallengeManager.Instance.CurrentChallenge != ChallengeManager.ChallengeStates.Simulando)
         {
-            ChargeParticle particleScript = particleObj.GetComponent<ChargeParticle>();
-            if (particleScript == null) continue;
+            return;
+        }
 
-            Vector3 direction = transform.position - particleObj.transform.position;
-            float distance = direction.magnitude;
+        Vector2 totalForce = Vector2.zero;
 
-            distance = Mathf.Max(distance, minDistance);
+        foreach (ChargeParticleWorld particle in ChargeParticleWorld.AllCharges)
+        {
+            Vector2 direction = (Vector2)transform.position - (Vector2)particle.transform.position;
 
-            float forceMagnitude = k * Mathf.Abs(charge * particleScript.charge) / (distance * distance);
+            float distance = Mathf.Max(direction.magnitude, minDistance);
 
-            bool sameSign = (charge * particleScript.charge) > 0;
-            Vector3 forceDirection = sameSign ? direction.normalized : -direction.normalized;
+            Vector2 forceDirection = direction.normalized;
+
+            float forceMagnitude = k * Mathf.Abs(charge * particle.Charge) / (distance * distance);
+
+            bool sameSign = charge * particle.Charge > 0f;
+
+            if (!sameSign) forceDirection *= -1f;
 
             totalForce += forceDirection * forceMagnitude;
         }
 
-        Vector3 acceleration = totalForce / mass;
-        velocity += acceleration * Time.deltaTime;
-        transform.position += velocity * Time.deltaTime;
+        rb.AddForce(totalForce);
     }
 }

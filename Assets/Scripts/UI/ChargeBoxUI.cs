@@ -2,30 +2,31 @@ using UnityEngine;
 
 public class ChargeBoxUI : MonoBehaviour
 {
-    public ChallengeData currentChallenge;
+    [SerializeField] private ChallengeData currentChallenge;
 
     [Header("Positive Charge")]
-    public GameObject positiveChargePrefab;
-    public GameObject positiveChargeBox;
-    public int currentPositiveCharges;
+    [SerializeField] private Transform positiveChargeBox;
 
     [Header("Negative Charge")]
-    public GameObject negativeChargePrefab;
-    public GameObject negativeChargeBox;
-    public int currentNegativeCharges;
+    [SerializeField] private Transform negativeChargeBox;
 
     private void Awake()
     {
-        InstantiateCharges(positiveChargePrefab, positiveChargeBox, currentChallenge.maxPositiveParticles);
-        InstantiateCharges(negativeChargePrefab, negativeChargeBox, currentChallenge.maxNegativeParticles);
+        InstantiateCharges(currentChallenge.positiveParticleUIPrefab, currentChallenge.positiveParticleWorldPrefab, currentChallenge.maxPositiveParticles, positiveChargeBox);
+
+        InstantiateCharges(currentChallenge.negativeParticleUIPrefab, currentChallenge.negativeParticleWorldPrefab, currentChallenge.maxNegativeParticles, negativeChargeBox);
     }
 
-    public void InstantiateCharges(GameObject instantiatedCharge, GameObject instantiationBox, int instaintiationTime)
+    private void InstantiateCharges(GameObject uiPrefab, GameObject worldPrefab, int amount, Transform box)
     {
-        for (int i = 0; i < instaintiationTime; i++)
+        for (int i = 0; i < amount; i++)
         {
-            Instantiate(instantiatedCharge);
-            instantiatedCharge.transform.position = instantiationBox.transform.position;
+            GameObject chargeObject =
+                Instantiate(uiPrefab, box);
+
+            ChargeParticleUI chargeUI = chargeObject.GetComponent<ChargeParticleUI>();
+
+            chargeUI.Initialize(worldPrefab);
         }
     }
 }

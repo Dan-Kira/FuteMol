@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7bf774dba68fa9458ca6e1c376eb669, type: 3}
+  m_Name: Desafio1
+  m_EditorClassIdentifier: Assembly-CSharp::ChallengeData
+  maxPositiveParticles: 5
+  positiveParticlesPrefab: {fileID: 6212251695631132324, guid: 9ebd5300c01f5304c9732517f97c17fe, type: 3}
+  maxNegativeParticles: 6
+  negativeParticlesPrefab: {fileID: 4027081250275241142, guid: 9f6ad540474c9f44ebf45b865d0a9404, type: 3}
+  obstaclesQuant: 0
+  obstaclesPrefab: {fileID: 0}
+  goalPrefab: {fileID: 6120725462017577131, guid: 0806cc0d3ea678347a14d1549731c7b7, type: 3}
