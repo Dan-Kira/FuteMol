@@ -5,5 +5,6 @@ public class UIManager : MonoBehaviour
     public void IniciarSimulacao()
     {
         ChallengeManager.Instance.Simular();
+        gameObject.SetActive(false);
     }
 }

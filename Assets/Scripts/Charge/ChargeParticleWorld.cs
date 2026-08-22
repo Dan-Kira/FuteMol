@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class ChargeParticleWorld : MonoBehaviour
 {
-    public static readonly List<ChargeParticleWorld> AllCharges =
-        new List<ChargeParticleWorld>();
+    public static readonly List<ChargeParticleWorld> AllCharges = new List<ChargeParticleWorld>();
 
     [SerializeField] private float charge;
 

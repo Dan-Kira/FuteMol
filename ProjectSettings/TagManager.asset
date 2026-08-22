@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ChargeParticle
   - Ball
+  - ChargeArea
   layers:
   - Default
   - TransparentFX

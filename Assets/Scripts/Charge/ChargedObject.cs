@@ -43,6 +43,6 @@ public class ChargedObject : MonoBehaviour
             totalForce += forceDirection * forceMagnitude;
         }
 
-        rb.AddForce(totalForce);
+        rb.AddForce(totalForce * Time.deltaTime);
     }
 }

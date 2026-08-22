@@ -21,8 +21,7 @@ public class ChargeBoxUI : MonoBehaviour
     {
         for (int i = 0; i < amount; i++)
         {
-            GameObject chargeObject =
-                Instantiate(uiPrefab, box);
+            GameObject chargeObject = Instantiate(uiPrefab, box);
 
             ChargeParticleUI chargeUI = chargeObject.GetComponent<ChargeParticleUI>();
 

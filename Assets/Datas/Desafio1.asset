@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Desafio1
   m_EditorClassIdentifier: Assembly-CSharp::ChallengeData
   maxPositiveParticles: 5
-  positiveParticlesPrefab: {fileID: 6212251695631132324, guid: 9ebd5300c01f5304c9732517f97c17fe, type: 3}
+  positiveParticleUIPrefab: {fileID: 926365957755464677, guid: 6fde24db2e96be848b2200f74f6c8ab5, type: 3}
+  positiveParticleWorldPrefab: {fileID: 2295681552981637430, guid: 3f2f52987cc68c7489d9dc840dc29973, type: 3}
   maxNegativeParticles: 6
-  negativeParticlesPrefab: {fileID: 4027081250275241142, guid: 9f6ad540474c9f44ebf45b865d0a9404, type: 3}
+  negativeParticleUIPrefab: {fileID: 2367235619573111394, guid: 23fdcfa1dc3352d499fc4e0dfeea4aaf, type: 3}
+  negativeParticleWorldPrefab: {fileID: 1989508450362484923, guid: 3971df676d2191d4c9d0ccc2a52ca3dd, type: 3}
   obstaclesQuant: 0
   obstaclesPrefab: {fileID: 0}
   goalPrefab: {fileID: 6120725462017577131, guid: 0806cc0d3ea678347a14d1549731c7b7, type: 3}
