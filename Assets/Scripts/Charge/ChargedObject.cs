@@ -12,9 +12,12 @@ public class ChargedObject : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private Vector2 startPosition;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        startPosition = transform.position;
     }
 
     private void FixedUpdate()
@@ -45,4 +48,11 @@ public class ChargedObject : MonoBehaviour
 
         rb.AddForce(totalForce * Time.deltaTime);
     }
+
+    public void ResetarPosicao()
+{
+    transform.position = startPosition;
+    rb.linearVelocity = Vector2.zero;
+    rb.angularVelocity = 0f;
+}
 }

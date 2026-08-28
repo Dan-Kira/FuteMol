@@ -29,6 +29,9 @@ public class ResultsManager : MonoBehaviour
     public void TentarNovamente()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        victoryPanel.SetActive(false);
+        defeatPanel.SetActive(false);
+
+        ChallengeManager.Instance.ResetarSimulacao();
     }
 }
