@@ -53,7 +53,7 @@ public class ChargeParticleUI :
         canvasGroup.blocksRaycasts = true;
         canvasGroup.alpha = 1f;
 
-        if (ChallengeManager.Instance.CurrentChallenge !=
+        if (ChallengeManager.Instance.CurrentState !=
             ChallengeManager.ChallengeStates.Formulando)
         {
             ReturnToBox();

@@ -306,6 +306,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0c8a6ee0ee11646b73c716959a8b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuInicial
+  painelFase: {fileID: 1545652047}
+--- !u!1 &647029914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647029915}
+  - component: {fileID: 647029916}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &647029915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647029914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01037, y: -0.00417, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647029916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647029914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c3b9e8dc849ed4088fa1853ec5bb2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChallengeChooser
+  nomeCenaDoJogo: SampleScene
+  todasAsFases:
+  - {fileID: 11400000, guid: 5f52e1a4ff8bb914db833b206816c108, type: 2}
+  - {fileID: 11400000, guid: 9250cfe261a7cab439cf06b5050e2ab4, type: 2}
+  botaoFasePrefab: {fileID: 4849585353066614945, guid: 9d0294ea371c63b4c91a476c94f83b65, type: 3}
+  painelDeBotoes: {fileID: 1545652048}
 --- !u!1 &691511869
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +448,6 @@ GameObject:
   - component: {fileID: 993798573}
   - component: {fileID: 993798572}
   - component: {fileID: 993798571}
-  - component: {fileID: 993798575}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -489,22 +539,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &993798575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993798570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13c3b9e8dc849ed4088fa1853ec5bb2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChallengeChooser
-  nomeCenaDoJogo: SampleScene
-  todasAsFases: []
-  botaoFasePrefab: {fileID: 4849585353066614945, guid: 9d0294ea371c63b4c91a476c94f83b65, type: 3}
-  painelDeBotoes: {fileID: 1545652048}
 --- !u!1 &1375024571
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1545652048
 RectTransform:
   m_ObjectHideFlags: 0
@@ -899,7 +933,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1983598462}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 452901486}
+        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
+        m_MethodName: Iniciar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1983598462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,3 +991,4 @@ SceneRoots:
   - {fileID: 1375024574}
   - {fileID: 993798574}
   - {fileID: 691511872}
+  - {fileID: 647029915}

@@ -22,7 +22,7 @@ public class ChargeParticleWorld : MonoBehaviour
 
     private void Update()
     {
-        if (ChallengeManager.Instance.CurrentChallenge != ChallengeManager.ChallengeStates.Formulando)
+        if (ChallengeManager.Instance.CurrentState != ChallengeManager.ChallengeStates.Formulando)
         {
             isDragging = false;
             return;

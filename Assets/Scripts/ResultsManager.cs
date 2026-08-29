@@ -26,6 +26,11 @@ public class ResultsManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void ContinuarFases()
+    {
+
+    }
+
     public void TentarNovamente()
     {
         Time.timeScale = 1f;

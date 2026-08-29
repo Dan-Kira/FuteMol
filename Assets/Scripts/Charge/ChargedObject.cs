@@ -22,7 +22,7 @@ public class ChargedObject : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (ChallengeManager.Instance.CurrentChallenge != ChallengeManager.ChallengeStates.Simulando)
+        if (ChallengeManager.Instance.CurrentState != ChallengeManager.ChallengeStates.Simulando)
         {
             return;
         }

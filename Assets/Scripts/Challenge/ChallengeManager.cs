@@ -6,7 +6,7 @@ public class ChallengeManager : MonoBehaviour
 
     public enum ChallengeStates { Formulando, Simulando, Derrota, Vitoria }
 
-    public ChallengeStates CurrentChallenge;
+    public ChallengeStates CurrentState;
 
     [Header("Referências")]
     [SerializeField] private GoalManager goal;
@@ -30,7 +30,9 @@ public class ChallengeManager : MonoBehaviour
             return;
         }
 
-        CurrentChallenge = ChallengeStates.Formulando;
+        currentChallenge = GameManager.DesafioSelecionado;
+
+        CurrentState = ChallengeStates.Formulando;
     }
 
     private void Start()
@@ -52,40 +54,40 @@ public class ChallengeManager : MonoBehaviour
 
     public void Simular()
     {
-        if (CurrentChallenge != ChallengeStates.Formulando)
+        if (CurrentState != ChallengeStates.Formulando)
             return;
 
-        CurrentChallenge = ChallengeStates.Simulando;
+        CurrentState = ChallengeStates.Simulando;
         uiManager.AtivarPainelSimulacao();
     }
 
     public void Victory()
     {
-        if (CurrentChallenge != ChallengeStates.Simulando)
+        if (CurrentState != ChallengeStates.Simulando)
             return;
 
-        CurrentChallenge = ChallengeStates.Vitoria;
+        CurrentState = ChallengeStates.Vitoria;
         resultsManager.Victory();
     }
 
     public void Defeat()
     {
-        if (CurrentChallenge != ChallengeStates.Simulando)
+        if (CurrentState != ChallengeStates.Simulando)
             return;
 
-        CurrentChallenge = ChallengeStates.Derrota;
+        CurrentState = ChallengeStates.Derrota;
         resultsManager.Defeat();
     }
 
     public void PararSimulacao()
     {
-        if (CurrentChallenge != ChallengeStates.Simulando) return;
+        if (CurrentState != ChallengeStates.Simulando) return;
         ResetarSimulacao();
     }
 
     public void ResetarSimulacao()
     {
-        CurrentChallenge = ChallengeStates.Formulando;
+        CurrentState = ChallengeStates.Formulando;
         uiManager.AtivarPainelFormulacao();
 
         ChargedObject ball = FindAnyObjectByType<ChargedObject>();
@@ -94,9 +96,8 @@ public class ChallengeManager : MonoBehaviour
 
     public void LimparCargas()
     {
-        if (CurrentChallenge != ChallengeStates.Formulando) return;
+        if (CurrentState != ChallengeStates.Formulando) return;
 
-        // É preciso usar .ToArray() porque ao destruir e chamar OnDisable, a lista original muda de tamanho
         foreach (var charge in ChargeParticleWorld.AllCharges.ToArray())
         {
             ChargeBoxUI.Instance.ReturnChargeToBox(charge.Charge > 0);
