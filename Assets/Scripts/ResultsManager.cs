@@ -28,7 +28,8 @@ public class ResultsManager : MonoBehaviour
 
     public void ContinuarFases()
     {
-
+        Time.timeScale = 1f;
+        ChallengeChooser.Instance.CarregarProximaFase();
     }
 
     public void TentarNovamente()

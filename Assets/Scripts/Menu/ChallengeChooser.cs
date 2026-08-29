@@ -20,23 +20,35 @@ public class ChallengeChooser : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
+            Instance.painelDeBotoes = this.painelDeBotoes;
+            Instance.botaoFasePrefab = this.botaoFasePrefab;
+            
+            Instance.GenerateButtons();
+
             Destroy(gameObject);
             return;
         }
-
-        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
-        GenerateButtons();
+        if (painelDeBotoes != null && painelDeBotoes.childCount == 0)
+        {
+            GenerateButtons();
+        }
     }
 
     void GenerateButtons()
     {
+        foreach (Transform child in painelDeBotoes)
+        {
+            Destroy(child.gameObject);
+        }
+        
         for(int i = 0; i < todasAsFases.Length; i++)
         {
             ChallengeData fase = todasAsFases[i];
@@ -56,4 +68,23 @@ public class ChallengeChooser : MonoBehaviour
         
         SceneManager.LoadScene(nomeCenaDoJogo);
     }
+
+    public void CarregarProximaFase()
+{
+    for (int i = 0; i < todasAsFases.Length; i++)
+    {
+        if (todasAsFases[i] == GameManager.DesafioSelecionado)
+        {
+            if (i + 1 < todasAsFases.Length)
+            {
+                CarregarFase(todasAsFases[i + 1]);
+            }
+            else
+            {
+                SceneManager.LoadScene("CenaInicial"); 
+            }
+            return;
+        }
+    }
+}
 }
