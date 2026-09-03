@@ -17,6 +17,7 @@ public class ChallengeManager : MonoBehaviour
     [SerializeField] private ChallengeData currentChallenge;
     [SerializeField] private Transform[] obstacleSpawnPoints;
 
+    public float tempoDecorrido;
 
     private void Awake()
     {
@@ -38,6 +39,14 @@ public class ChallengeManager : MonoBehaviour
     private void Start()
     {
         SpawnObstacles();
+    }
+
+    private void Update()
+    {
+        if (CurrentState == ChallengeStates.Simulando)
+        {
+            tempoDecorrido += Time.deltaTime;
+        }
     }
 
     private void SpawnObstacles()
@@ -63,11 +72,19 @@ public class ChallengeManager : MonoBehaviour
 
     public void Victory()
     {
-        if (CurrentState != ChallengeStates.Simulando)
-            return;
+        if (CurrentState != ChallengeStates.Simulando) return;
 
         CurrentState = ChallengeStates.Vitoria;
-        resultsManager.Victory();
+
+        int stars = 1;
+        if (tempoDecorrido <= currentChallenge.tempo3Estrelas) stars = 3;
+        else if (tempoDecorrido <= currentChallenge.tempo2Estrelas) stars = 2;
+
+        DataPersistence.Instance.SaveLevelProgress(currentChallenge.levelIndex, stars, tempoDecorrido);
+
+        float melhorTempo = DataPersistence.Instance.GetBestTime(currentChallenge.levelIndex);
+
+        resultsManager.Victory(stars, tempoDecorrido, melhorTempo);
     }
 
     public void Defeat()
@@ -85,10 +102,15 @@ public class ChallengeManager : MonoBehaviour
         ResetarSimulacao();
     }
 
-    public void ResetarSimulacao()
+    public void ResetarSimulacao(bool zerarTempo = false)
     {
         CurrentState = ChallengeStates.Formulando;
         uiManager.AtivarPainelFormulacao();
+
+        if (zerarTempo)
+        {
+            tempoDecorrido = 0f;
+        }
 
         ChargedObject ball = FindAnyObjectByType<ChargedObject>();
         if (ball != null) ball.ResetarPosicao();

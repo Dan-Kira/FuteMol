@@ -5,6 +5,11 @@ public class ChallengeData : ScriptableObject
 {
     [Header("Level Info")]
     public string nomeFase = "Fase 1";
+    public int levelIndex;
+
+    [Header("Estrelas (Tempo em Segundos)")]
+    public float tempo3Estrelas = 5f;
+    public float tempo2Estrelas = 10f;
 
     [Header("Positive Charge")]
     public int maxPositiveParticles;

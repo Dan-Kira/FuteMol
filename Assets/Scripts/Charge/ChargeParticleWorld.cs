@@ -12,9 +12,13 @@ public class ChargeParticleWorld : MonoBehaviour
     private bool isDragging = false;
     private Vector3 offset;
 
+    private Collider2D myCollider;
+    private static bool isAnyDragging = false;
+
     private void Awake()
     {
         mainCamera = Camera.main;
+        myCollider = GetComponent<Collider2D>();
     }
 
     private void OnEnable() => AllCharges.Add(this);
@@ -36,13 +40,18 @@ public class ChargeParticleWorld : MonoBehaviour
         Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isAnyDragging)
         {
-            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero);
-            if (hit.collider != null && hit.transform == transform)
+            Collider2D[] hits = Physics2D.OverlapPointAll(mouseWorldPos);
+            foreach (var hit in hits)
             {
-                isDragging = true;
-                offset = transform.position - mouseWorldPos;
+                if (hit == myCollider)
+                {
+                    isDragging = true;
+                    isAnyDragging = true;
+                    offset = transform.position - mouseWorldPos;
+                    break;
+                }
             }
         }
 
@@ -51,9 +60,10 @@ public class ChargeParticleWorld : MonoBehaviour
             transform.position = mouseWorldPos + offset;
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && isDragging)
         {
             isDragging = false;
+            isAnyDragging = false;
             VerifyInputPlace();
         }
     }

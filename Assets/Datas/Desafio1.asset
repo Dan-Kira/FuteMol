@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Desafio1
   m_EditorClassIdentifier: Assembly-CSharp::ChallengeData
   nomeFase: Fase 1
+  levelIndex: 0
+  tempo3Estrelas: 15
+  tempo2Estrelas: 20
   maxPositiveParticles: 5
   positiveParticleUIPrefab: {fileID: 926365957755464677, guid: 6fde24db2e96be848b2200f74f6c8ab5, type: 3}
   positiveParticleWorldPrefab: {fileID: 2295681552981637430, guid: 3f2f52987cc68c7489d9dc840dc29973, type: 3}
