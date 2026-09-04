@@ -14,11 +14,54 @@ public class ResultsManager : MonoBehaviour
 
     private void Awake()
     {
-        if (victoryPanel != null) victoryPanel.SetActive(false);
-        if (defeatPanel != null) defeatPanel.SetActive(false);
+        Debug.Log("===== RESULTS AWAKE =====");
+
+        Debug.Log($"VictoryPanel: {victoryPanel}");
+
+        if (victoryPanel != null)
+        {
+            Debug.Log(
+                $"VictoryPanel ID: {victoryPanel.GetInstanceID()}"
+            );
+        }
+
+        for (int i = 0; i < estrelasVitoria.Length; i++)
+        {
+            if (estrelasVitoria[i] == null)
+            {
+                Debug.LogError($"ESTRELA {i} ESTÁ NULL NO AWAKE!");
+            }
+            else
+            {
+                Debug.Log(
+                    $"Estrela {i}: " +
+                    $"{estrelasVitoria[i].gameObject.name} | " +
+                    $"ID: {estrelasVitoria[i].GetInstanceID()}"
+                );
+            }
+        }
+
+        if (victoryPanel != null)
+            victoryPanel.SetActive(false);
+
+        if (defeatPanel != null)
+            defeatPanel.SetActive(false);
 
         Time.timeScale = 1f;
     }
+
+    private void Start()
+    {
+        Debug.Log("===== RESULTS MANAGER START =====");
+
+        Debug.Log($"VictoryPanel: {victoryPanel}");
+
+        for (int i = 0; i < estrelasVitoria.Length; i++)
+        {
+            Debug.Log($"Star {i}: {estrelasVitoria[i]}");
+        }
+    }
+
 
     public void Victory(int stars, float tempoAtual, float melhorTempo)
     {
@@ -31,7 +74,7 @@ public class ResultsManager : MonoBehaviour
             {
                 if (estrelasVitoria[i] != null)
                 {
-                    estrelasVitoria[i].color = (i < stars) ? Color.white : new Color(0.2f, 0.2f, 0.2f, 1f);
+                    estrelasVitoria[i].color = (i < stars) ? Color.white : Color.black;
                 }
             }
         }

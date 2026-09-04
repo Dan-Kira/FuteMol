@@ -10,24 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7bf774dba68fa9458ca6e1c376eb669, type: 3}
-  m_Name: Desafio2
+  m_Name: Desafio3
   m_EditorClassIdentifier: Assembly-CSharp::ChallengeData
-  nomeFase: Fase 2
-  levelIndex: 1
-  tempo3Estrelas: 10
-  tempo2Estrelas: 15
-  maxPositiveParticles: 7
+  nomeFase: Fase 3
+  levelIndex: 2
+  tempo3Estrelas: 5
+  tempo2Estrelas: 10
+  maxPositiveParticles: 5
   positiveParticleUIPrefab: {fileID: 926365957755464677, guid: 6fde24db2e96be848b2200f74f6c8ab5, type: 3}
   positiveParticleWorldPrefab: {fileID: 2295681552981637430, guid: 3f2f52987cc68c7489d9dc840dc29973, type: 3}
-  maxNegativeParticles: 5
+  maxNegativeParticles: 3
   negativeParticleUIPrefab: {fileID: 2367235619573111394, guid: 23fdcfa1dc3352d499fc4e0dfeea4aaf, type: 3}
   negativeParticleWorldPrefab: {fileID: 1989508450362484923, guid: 3971df676d2191d4c9d0ccc2a52ca3dd, type: 3}
   ballPrefab: {fileID: 348060686303491445, guid: 2f85942f738997540a756cc7d7ebf406, type: 3}
-  ballSpawnPosition: {x: -5, y: 3, z: 0}
+  ballSpawnPosition: {x: -4, y: 1, z: 0}
   goalPrefab: {fileID: 6120725462017577131, guid: 0806cc0d3ea678347a14d1549731c7b7, type: 3}
-  goalSpawnPosition: {x: 8, y: -1, z: 0}
-  obstaclesQuant: 2
+  goalSpawnPosition: {x: 2.5, y: 0, z: 0}
+  obstaclesQuant: 3
   obstaclesPrefab: {fileID: 4859203895656517237, guid: 1348ed5c34181b84d8b9fd921ea232a2, type: 3}
   obstacleSpawnPositions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 4, y: 2, z: 0}
+  - {x: -3, y: 1, z: 0}

@@ -355,6 +355,7 @@ MonoBehaviour:
   todasAsFases:
   - {fileID: 11400000, guid: 5f52e1a4ff8bb914db833b206816c108, type: 2}
   - {fileID: 11400000, guid: 9250cfe261a7cab439cf06b5050e2ab4, type: 2}
+  - {fileID: 11400000, guid: e431c15de33ce4b439989bc6c2367f82, type: 2}
   botaoFasePrefab: {fileID: 4849585353066614945, guid: 9d0294ea371c63b4c91a476c94f83b65, type: 3}
   painelDeBotoes: {fileID: 1545652048}
 --- !u!1 &691511869
@@ -809,6 +810,7 @@ MonoBehaviour:
     currentChallenge: 
     highestLevelUnlocked: 0
     levelStars: 
+    levelBestTime: []
 --- !u!4 &1846673024
 Transform:
   m_ObjectHideFlags: 0
