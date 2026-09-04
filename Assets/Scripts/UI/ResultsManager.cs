@@ -32,18 +32,6 @@ public class ResultsManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    private void Start()
-    {
-        Debug.Log("===== RESULTS MANAGER START =====");
-
-        Debug.Log($"VictoryPanel: {victoryPanel}");
-
-        for (int i = 0; i < estrelasVitoria.Length; i++)
-        {
-            Debug.Log($"Star {i}: {estrelasVitoria[i]}");
-        }
-    }
-
 
     public void Victory(int stars, float tempoAtual, float melhorTempo)
     {
