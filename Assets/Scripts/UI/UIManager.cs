@@ -20,15 +20,15 @@ public class UIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (ChallengeManager.Instance.CurrentState == ChallengeManager.ChallengeStates.Derrota ||  ChallengeManager.Instance.CurrentState == ChallengeManager.ChallengeStates.Vitoria) 
-            return;
-
             PauseMenu();
         }
     }
 
     public void PauseMenu()
     {
+        if (ChallengeManager.Instance.CurrentState == ChallengeManager.ChallengeStates.Derrota ||  ChallengeManager.Instance.CurrentState == ChallengeManager.ChallengeStates.Vitoria) 
+            return;
+
         bool active = !pauseMenu.activeSelf;
 
         pauseMenu.SetActive(active);

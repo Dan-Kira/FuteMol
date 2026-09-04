@@ -14,8 +14,20 @@ public class ResultsManager : MonoBehaviour
 
     private void Awake()
     {
-        if (victoryPanel != null) victoryPanel.SetActive(false);
-        if (defeatPanel != null) defeatPanel.SetActive(false);
+        if (victoryPanel != null)
+        {
+            estrelasVitoria = new Image[3];
+            estrelasVitoria[0] = victoryPanel.transform.Find("Star")?.GetComponent<Image>();
+            estrelasVitoria[1] = victoryPanel.transform.Find("Star (1)")?.GetComponent<Image>();
+            estrelasVitoria[2] = victoryPanel.transform.Find("Star (2)")?.GetComponent<Image>();
+
+            victoryPanel.SetActive(false);
+        }
+
+        if (defeatPanel != null) 
+        {
+            defeatPanel.SetActive(false);
+        }
 
         Time.timeScale = 1f;
     }
