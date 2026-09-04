@@ -68,9 +68,7 @@ public class ChallengeChooser : MonoBehaviour
                 botaoUI.nomeFaseText.text = fase.nomeFase;
 
             int estrelasObtidas = 0;
-            if (DataPersistence.Instance != null && 
-                DataPersistence.Instance.currentSave != null && 
-                fase.levelIndex < DataPersistence.Instance.currentSave.levelStars.Count)
+            if (DataPersistence.Instance != null &&  DataPersistence.Instance.currentSave != null &&  fase.levelIndex < DataPersistence.Instance.currentSave.levelStars.Count)
             {
                 estrelasObtidas = DataPersistence.Instance.currentSave.levelStars[fase.levelIndex];
             }

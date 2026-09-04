@@ -3,28 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\levelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\ui\\resultsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resultsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\menu\\challengechooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu\\challengechooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\challenge\\challengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\assets\\scripts\\challenge\\challengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\challengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\menu\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\ui\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\ui\\levelbuttonui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelbuttonui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\ui\\chargeboxui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\chargeboxui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\assets\\scripts\\menu\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\assets\\scripts\\menu\\challengechooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu\\challengechooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\resultsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resultsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\charge\\chargeparticleworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charge\\chargeparticleworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\charge\\chargeparticleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charge\\chargeparticleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\charge\\chargedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charge\\chargedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\challenge\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\challenge\\limitesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\limitesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\challenge\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\challenge\\challengedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\challenge\\challengedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\backend\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\backend\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend\\savecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\backend\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|c:\\users\\daniel_t_mendes\\documents\\github\\futemol\\assets\\scripts\\backend\\datapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B81F688-3455-4514-0382-96033033DBBD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend\\datapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\LevelBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LevelBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +94,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TimeManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TimeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:13:10.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:13:02.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LevelButtonUI.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\LevelButtonUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelButtonUI.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\LevelButtonUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LevelButtonUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:12:53.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChargeBoxUI.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\ChargeBoxUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ChargeBoxUI.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\ChargeBoxUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ChargeBoxUI.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:12:49.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChargeParticleWorld.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargeParticleWorld.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Charge\\ChargeParticleWorld.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargeParticleWorld.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Charge\\ChargeParticleWorld.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:31.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChargeParticleUI.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargeParticleUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Charge\\ChargeParticleUI.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargeParticleUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Charge\\ChargeParticleUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:24.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:14.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LimitesManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\LimitesManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\LimitesManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\LimitesManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\LimitesManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:12.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GoalManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\GoalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\GoalManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\GoalManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\GoalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:10.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChallengeData.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\ChallengeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:10:02.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SaveData.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\SaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Backend\\SaveData.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\SaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Backend\\SaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T23:34:14.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SaveController.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\SaveController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Backend\\SaveController.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\SaveController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Backend\\SaveController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:09:54.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Backend\\GameManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Backend\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:09:52.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataPersistence.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\DataPersistence.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Backend\\DataPersistence.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Backend\\DataPersistence.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Backend\\DataPersistence.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T22:54:42.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultsManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\ResultsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResultsManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\UI\\ResultsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ResultsManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T22:38:09.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChallengeManager.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\ChallengeManager.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Challenge\\ChallengeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T22:45:32.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChargedObject.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargedObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Charge\\ChargedObject.cs",
+              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Charge\\ChargedObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Charge\\ChargedObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T22:30:13.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -46,25 +327,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T23:48:00.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T23:48:00.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResultsManager.cs",
-              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\ResultsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ResultsManager.cs",
-              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\ResultsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ResultsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T23:30:10.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MenuInicial.cs",
               "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Menu\\MenuInicial.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\MenuInicial.cs",
@@ -77,42 +344,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChallengeManager.cs",
-              "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Challenge\\ChallengeManager.cs",
-              "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Challenge\\ChallengeManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Challenge\\ChallengeManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T22:45:32.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ChallengeChooser.cs",
               "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Menu\\ChallengeChooser.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\ChallengeChooser.cs",
               "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\Menu\\ChallengeChooser.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu\\ChallengeChooser.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA1wAsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T22:45:20.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "LevelBuilder.cs",
               "DocumentMoniker": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\LevelBuilder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelBuilder.cs",
               "ToolTip": "C:\\Users\\daniel_t_mendes\\Documents\\GitHub\\FuteMol\\Assets\\Scripts\\LevelBuilder.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelBuilder.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T22:45:11.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T22:45:11.091Z"
             }
           ]
         }

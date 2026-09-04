@@ -32,6 +32,19 @@ public class ResultsManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    private void Start()
+    {
+        Debug.Log("===== RESULTS MANAGER START =====");
+
+        Debug.Log($"VictoryPanel: {victoryPanel}");
+
+        for (int i = 0; i < estrelasVitoria.Length; i++)
+        {
+            Debug.Log($"Star {i}: {estrelasVitoria[i]}");
+        }
+    }
+
+
     public void Victory(int stars, float tempoAtual, float melhorTempo)
     {
         if (victoryPanel != null) victoryPanel.SetActive(true);
@@ -43,7 +56,7 @@ public class ResultsManager : MonoBehaviour
             {
                 if (estrelasVitoria[i] != null)
                 {
-                    estrelasVitoria[i].color = (i < stars) ? Color.white : new Color(0.2f, 0.2f, 0.2f, 1f);
+                    estrelasVitoria[i].color = (i < stars) ? Color.white : Color.black;
                 }
             }
         }
